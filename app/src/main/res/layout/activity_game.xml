@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="#007013"
+        android:orientation="vertical"
+        android:id="@+id/layout1"
+        >
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#007013"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btncheck"
+            android:backgroundTint="#1C9500"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Check"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnfold"
+            android:backgroundTint="#1C9500"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Fold"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btncall"
+            android:backgroundTint="#1C9500"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Call"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnraise"
+            android:backgroundTint="#1C9500"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Raise"
+            ></Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
